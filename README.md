@@ -31,7 +31,7 @@ Run Window Function Queries
         ↓
 Export Results back to Excel
         ↓
-Upload everything to GitHub
+Create Dashboard
 ```
 
 ---
