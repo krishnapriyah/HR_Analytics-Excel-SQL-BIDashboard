@@ -39,6 +39,7 @@ Upload everything to GitHub
 ##  Dataset Overview
 
 **Source:** HR_Employee_Data.xlsx (custom dataset)
+
 **Records:** 50 Employees across 5 Departments
 
 | Column | Description |
@@ -68,14 +69,14 @@ hr-window-functions-sql/
 ├── sql/
 │   └── HR_Window_Functions_Analysis.sql
 └── visuals/
-    └── (screenshots of query results)
+    └── screenshots of query results in document
 ```
 
 ---
 
 ## Window Functions Covered
 
-### 1️⃣ ROW_NUMBER()
+### 1.ROW_NUMBER()
 **Business Question:** What is the unique position of each employee within their department by salary?
 
 - Assigns sequential unique numbers 1, 2, 3... to each row
@@ -84,7 +85,7 @@ hr-window-functions-sql/
 
 ---
 
-### 2️⃣ RANK()
+### 2️.RANK()
 **Business Question:** Rank employees by salary — if two people earn the same, they share a rank
 
 - Tied employees get the **same rank**
@@ -93,7 +94,7 @@ hr-window-functions-sql/
 
 ---
 
-### 3️⃣ DENSE_RANK()
+### 3️.DENSE_RANK()
 **Business Question:** Create a performance leaderboard with no gaps in ranking
 
 - Tied employees get the **same rank**
@@ -102,7 +103,7 @@ hr-window-functions-sql/
 
 ---
 
-### 4️⃣ RANK vs DENSE_RANK vs ROW_NUMBER
+### 4️.RANK vs DENSE_RANK vs ROW_NUMBER
 **Business Question:** Compare all three ranking methods side by side on IT department
 
 | salary | ROW_NUMBER | RANK | DENSE_RANK |
@@ -116,7 +117,7 @@ hr-window-functions-sql/
 
 ---
 
-### 5️⃣ LAG()
+### 5️.LAG()
 **Business Question:** Compare each employee's salary to the previous experience-level employee in the same department
 
 - Fetches value from the **previous row**
@@ -125,7 +126,7 @@ hr-window-functions-sql/
 
 ---
 
-### 6️⃣ LEAD()
+### 6️.LEAD()
 **Business Question:** What does the next higher-experienced person earn in the same department?
 
 - Fetches value from the **next row**
@@ -134,7 +135,7 @@ hr-window-functions-sql/
 
 ---
 
-### 7️⃣ SUM() OVER() — Running Total
+### 7️.SUM() OVER() — Running Total
 **Business Question:** How has the total salary cost accumulated department-wise over time since hiring?
 
 - Keeps a **cumulative running total** as rows progress
@@ -143,7 +144,7 @@ hr-window-functions-sql/
 
 ---
 
-### 8️⃣ AVG() OVER() — Department Average Comparison
+### 8️.AVG() OVER() — Department Average Comparison
 **Business Question:** Is each employee paid above or below their department average?
 
 - Calculates average **without collapsing rows** like GROUP BY does
@@ -152,7 +153,7 @@ hr-window-functions-sql/
 
 ---
 
-### 9️⃣ FIRST_VALUE()
+### 9️.FIRST_VALUE()
 **Business Question:** How far is each employee's salary from the highest paid person in their department?
 
 - Returns the **first value** in the window (highest salary after ORDER BY DESC)
@@ -161,7 +162,7 @@ hr-window-functions-sql/
 
 ---
 
-### 🔟 NTILE(4) — Salary Quartiles
+### 10.NTILE(4) — Salary Quartiles
 **Business Question:** Which salary band does each employee fall into across the company?
 
 | Quartile | Band |
@@ -173,7 +174,7 @@ hr-window-functions-sql/
 
 ---
 
-### 1️⃣1️⃣ PERCENT_RANK()
+### 11.PERCENT_RANK()
 **Business Question:** What salary percentile is each employee at in the entire company?
 
 - Returns a value between **0 and 1** (multiplied by 100 for %)
@@ -232,16 +233,10 @@ PERCENT_RANK()→ relative rank as 0 to 1 percentage
 
 ##  How to Run
 
-**Option 1 — Import from Excel:**
 1. Open `HR_Employee_Data.xlsx` → Save As CSV
 2. Open SSMS → Right click database → Tasks → Import Flat File
 3. Select CSV → follow wizard → table created automatically
 4. Run the analysis queries from `sql/` folder
-
-**Option 2 — Direct SQL Script:**
-1. Open SSMS → New Query
-2. Copy and run `HR_Window_Functions_Analysis.sql`
-3. It creates the database, table, inserts all 50 rows, and runs all queries
 
 ---
 
