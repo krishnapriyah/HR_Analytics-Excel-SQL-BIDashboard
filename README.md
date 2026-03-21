@@ -167,10 +167,10 @@ hr-window-functions-sql/
 
 | Quartile | Band |
 |---|---|
-| 1 | Top 25% students   → Grade A|
-| 2 | Next 25% students  → Grade B|
-| 3 |Next 25% students   → Grade C|
-| 4 |Bottom 25% students → Grade D|
+| 1 | Top 25% Employees   → Band A|
+| 2 | Next 25% Employees  → Band B|
+| 3 |Next 25% Employees   → Band C|
+| 4 |Bottom 25% Employees → Band D|
 
 ---
 
