@@ -162,15 +162,17 @@ hr-window-functions-sql/
 
 ---
 
-### 10.NTILE(4) — Salary Quartiles
-**Business Question:** Which salary band does each employee fall into across the company?
+### 10. NTILE(4) — Performance Bands
+**Business Question:** What performance band does each employee get based on performance score? 
 
 | Quartile | Band |
 |---|---|
-| 1 | Top 25% — High Earners |
-| 2 | Upper Middle 25% |
-| 3 | Lower Middle 25% |
-| 4 | Bottom 25% — Low Earners |
+| 1 | Top 25% students   → Grade A|
+| 2 | Next 25% students  → Grade B|
+| 3 |Next 25% students   → Grade C|
+| 4 |Bottom 25% students → Grade D|
+
+---
 
 ---
 
