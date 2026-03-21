@@ -161,8 +161,8 @@ hr-window-functions-sql/
 - Helps identify salary ceiling in each department
 
 ---
-### 10. NTILE(4) — Performance Bands
-**Business Question:** What performance band does each employee get based on performance score? 
+### 10. NTILE(4) — Salary Quartiles
+Business Question: Which salary band does each employee fall into across the company?
 
 | Quartile | Band |
 |---|---|
