@@ -36,7 +36,7 @@ FROM dbo.Employees
 ORDER BY DEPARTMENT,row_num;
 
 
---Query:2 - Rank employees by salary — if two people earn the same, they share a rank
+--Query:2 - Rank employees by salary â€” if two people earn the same, they share a rank
 SELECT EMPLOYEE_ID,DEPARTMENT,SALARY,
        RANK() OVER(PARTITION BY DEPARTMENT                  --restart count for each department
                          ORDER BY SALARY DESC) AS row_num    --highest salary gets number 1
