@@ -194,8 +194,8 @@ Uses **6 window functions together:**
 - `PERCENT_RANK()` — company percentile
 
 ---
-## 📊 Dashboard
-![Dashboard](HR_Analytics-Excel-SQL-BIDashboard/HR_Employee_Performance_Dashboard)
+##  Dashboard
+![Dashboard](HR_Employee_Performance_Dashboard.png)
 🔗 View Power BI Dashboard: [link]
 
 ##  Key Insights
