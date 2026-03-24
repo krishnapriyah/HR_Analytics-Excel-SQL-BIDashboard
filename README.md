@@ -15,7 +15,7 @@ HR teams need deep insights beyond simple aggregations — they need to know whe
 ![SQL Server](https://img.shields.io/badge/SQL_Server-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white)
 ![SSMS](https://img.shields.io/badge/SSMS-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white)
 ![Excel](https://img.shields.io/badge/Microsoft_Excel-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white)
-![PowerBI](https://img.shields.io/badge/Tool-PowerBI-yellow)
+![PowerBI](https://img.shields.io/badge/PowerBI-yellow?style=for-the-badge&logo=PowerBI)
 
 ---
 
