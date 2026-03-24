@@ -1,4 +1,4 @@
-#  HR Employee Performance Analysis — SQL Window Functions
+#  HR Employee Performance Analysis — SQL Window Functions & PowerBI Dashboard
 
 > A complete SQL project analyzing HR employee data using all major Window Functions in SQL Server (SSMS)
 
@@ -194,6 +194,9 @@ Uses **6 window functions together:**
 - `PERCENT_RANK()` — company percentile
 
 ---
+## 📊 Dashboard
+![Dashboard](HR_Analytics-Excel-SQL-BIDashboard/HR_Employee_Performance_Dashboard)
+🔗 View Power BI Dashboard: [link]
 
 ##  Key Insights
 
