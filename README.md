@@ -1,4 +1,5 @@
-#  HR Employee Performance Analysis — SQL Window Functions & PowerBI Dashboard
+#  HR Employee Performance Analysis — SQL Window Functions 
+#                                     & PowerBI Dashboard
 
 > A complete SQL project analyzing HR employee data using all major Window Functions in SQL Server (SSMS)
 
@@ -195,7 +196,7 @@ Uses **6 window functions together:**
 
 ---
 ## Dashboard
-![Dashboard](./HR_Employee_Performance_Dashboard.png)
+![Dashboard](./Dashboard_Image.png)
  View Power BI Dashboard: [Check this File : HR_Employee_Performance_dashboard.pbix]
 
 ##  Key Insights
