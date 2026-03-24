@@ -196,7 +196,7 @@ Uses **6 window functions together:**
 ---
 ## Dashboard
 ![Dashboard](./HR_Employee_Performance_Dashboard.png)
- View Power BI Dashboard: [Click Here](https://your-link)
+ View Power BI Dashboard: [Check this File : HR_Employee_Performance_dashboard.pbix]
 
 ##  Key Insights
 
